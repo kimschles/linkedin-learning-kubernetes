@@ -1,0 +1,16 @@
+---
+# An instructor record
+name: Kim Schlesinger
+job: Technical Curriculum Developer
+Location: Colorado, USA
+courses:
+  - Learning Kubernetes 
+  - Kubernetes Package Management with Helm 
+jobs:
+  DigitalOcean: 1.25
+  Fairwinds: 2.75
+  Galvanize: 3 
+  titles: 
+    - Director of Instruction
+    - Web Development Instructor
+    - Instructional Designer 
