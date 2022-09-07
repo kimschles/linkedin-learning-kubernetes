@@ -1,9 +1,8 @@
 --- 
-# To Do: scan with polaris 
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pod-info
+  name: pod-info-deployment
   namespace: development
   labels:
     app: pod-info
@@ -18,8 +17,8 @@ spec:
         app: pod-info
     spec:
       containers:
-      - name: pod-info
-        image: kimschles/pod-info-app:0.0.5
+      - name: pod-info-container
+        image: kimschles/pod-info-app:latest
         ports:
         - containerPort: 3000
         env:
