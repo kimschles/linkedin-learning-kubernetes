@@ -17,7 +17,7 @@ spec:
         app: busybox
     spec:
       containers:
-      - name: busybox
+      - name: busybox-container
         image: busybox:latest
         securityContext:
           readOnlyRootFilesystem: true
