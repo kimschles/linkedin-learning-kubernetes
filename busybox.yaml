@@ -19,8 +19,8 @@ spec:
       containers:
       - name: busybox-container
         image: busybox:latest
-        # spin and wait forever
-        command: [ "/bin/bash", "-c", "--" ]
+        # Keep the container running
+        command: [ "/bin/sh", "-c", "--" ]
         args: [ "while true; do sleep 30; done;" ]
         resources:
           requests:
